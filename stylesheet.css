@@ -1,0 +1,321 @@
+body {
+	background: #CE6B4A;
+	}
+
+hr {
+	border-style: solid;
+	color: #EAEAE8;
+	border-width: 1px;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	font-family: 'montserrat_hairline';
+	font-size: 3.5em;
+	color: #EAEAE8;
+}
+
+h2 {
+	margin: 0;
+	margin-top: 2%;
+	padding: 0;
+	font-size: 1.75em;
+	font-family: 'montserrat_light';
+}
+
+h3 {
+	margin: 0;
+	margin-bottom: 2.5%;
+	padding: 0;
+	font-size: 1.25em;
+}
+
+#container {
+	width: 1100px;
+	height: 2100px;
+	background: #D27B5B;
+	margin: 0 auto;
+	}
+
+#content {
+	position: relative;
+	width: 87.27%; /*960/1100px*/
+	margin: 0 auto;
+	}
+
+#left-1 {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 23.43%; /*225/960px*/
+	}
+
+	#left-1 p {
+		margin: 0 auto;
+		color: #EAEAE8;
+		font-family: 'montserrat_hairline';
+		font-size: 1.5em;
+		letter-spacing:1px;
+		}
+
+#right-1 {
+	float: right;
+	width: 76.57%; /*735/960px*/
+	}
+
+.clear {
+	clear: both;
+	}
+
+#title {
+	width: 87.27%%;
+	}
+
+	#title p {
+		margin: 0 auto;
+		color: #EAEAE8;
+		font-family: 'montserrat_black';
+		font-size: 9.3em;
+		letter-spacing: 1px;
+		text-align: center;
+		}
+
+#links {
+	width: 87.27%;
+	}
+
+	#links ul {
+		margin: 0 auto;
+		list-style-type: none;
+		}
+
+	#links li {
+		float: left;
+		}
+
+	#links a:link, a:visited {
+		display: block;
+		font-family: 'montserrat_semibold';
+		color: #EAEAE8;
+		text-align: center;
+		padding: 3px 40px;
+		margin-left: 120px;
+		margin-right: 30px;
+		text-decoration:none;
+		font-size: 1.5em;
+		letter-spacing: 1.5px;
+		}
+
+	#links a:hover {
+		background: #EAEAE8;
+		color: #D27B5B;
+		}
+
+.where-link {
+	margin-left: 70px;
+	}
+
+#info {
+	width: 87.27%;
+	}
+
+#who {
+	font-family: 'montserrat_hairline';
+	color: #EAEAE8;
+	width: 45%;
+	float: left;
+	margin-left: 5%;
+	}
+
+#where {
+	font-family: 'montserrat_hairline';
+	color: #EAEAE8;
+	width: 45%;
+	float: right;
+	margin-left: 5%;
+	}
+
+.details{
+	margin: 1em 0;
+	}
+
+#gif-link {
+	margin: 0 auto;
+	text-align: center;
+	font-family: 'montserrat_semibold';
+	color: #EAEAE8;
+	font-size: 1.5em;
+	letter-spacing: 1.5px;
+	}
+
+#example {
+		display: none;
+		}
+
+#click-here {
+	font-family: 'montserrat_light';
+	font-size: 1em;
+	letter-spacing: 3px;
+	color: #D27B5B;
+	background: #EAEAE8;
+	border: 2px solid #D27B5B;
+	outline: none;
+	padding: 10px 18px;
+	margin-bottom: 30px;
+	}
+
+	#click-here:hover, #click-here:active {
+		background: #D27B5B;
+		color: #EAEAE8;
+		border: 2px solid #EAEAE8;
+		outline: none;
+		}
+
+	#blog-content {
+		margin: 3% 0;
+		text-align: center;
+	}
+
+	.log {
+		text-align: left;
+		margin: 0 auto;
+		width: 50%;
+		padding: 0 3%;
+		height: 960px;
+		font-family: 'montserrat_hairline';
+		color: #EAEAE8;
+		overflow: scroll;
+	}
+
+	::-webkit-scrollbar {
+      width: 10px;
+} /* this targets the default scrollbar (compulsory) */
+
+::-webkit-scrollbar-track {
+      background-color: #D27B5B;
+} /* the new scrollbar will have a flat appearance with the set background color */
+
+::-webkit-scrollbar-thumb {
+      background-color: #EAEAE8;
+} /* this will style the thumb, ignoring the track */
+
+::-webkit-scrollbar-button {
+      background-color:;
+} /* optionally, you can style the top and the bottom buttons (left and right for horizontal bars) */
+
+::-webkit-scrollbar-corner {
+			background-color: #D27B5B;
+} /* if both the vertical and the horizontal bars appear, then perhaps the right bottom corner also needs to be styled */
+
+	.blog-link {
+		width: 20%;
+		margin: 0 auto;
+		border: 2px solid #EAEAE8;
+		margin-top: 2%;
+		padding: 1%;
+		text-align: center;
+		font-family: 'montserrat_light';
+		font-size: 1.5em;
+		color: #EAEAE8;
+	}
+
+		.blog-link a {
+			text-decoration: none;
+		}
+
+		.blog-link a:hover {
+			background: #EAEAE8;
+			color: #D27B5B;
+		}
+
+
+/***FONT INFO***/
+
+@font-face {
+    font-family: 'montserrat_black';
+    src: url('assets/fonts/montserrat/montserrat-black-webfont.eot');
+    src: url('assets/fonts/montserrat/montserrat-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/montserrat/montserrat-black-webfont.woff') format('woff'),
+         url('assets/fonts/montserrat/montserrat-black-webfont.ttf') format('truetype'),
+         url('assets/fonts/montserrat/montserrat-black-webfont.svg#montserrat_black') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'montserrat_bold';
+    src: url('assets/fonts/montserrat/montserrat-bold-webfont.eot');
+    src: url('assets/fonts/montserrat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/montserrat/montserrat-bold-webfont.woff') format('woff'),
+         url('assets/fonts/montserrat/montserrat-bold-webfont.ttf') format('truetype'),
+         url('assets/fonts/montserrat/montserrat-bold-webfont.svg#montserrat_bold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'montserrat_extrabold';
+    src: url('assets/fonts/montserrat/montserrat-extrabold-webfont.eot');
+    src: url('assets/fonts/montserrat/montserrat-extrabold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/montserrat/montserrat-extrabold-webfont.woff') format('woff'),
+         url('assets/fonts/montserrat/montserrat-extrabold-webfont.ttf') format('truetype'),
+         url('assets/fonts/montserrat/montserrat-extrabold-webfont.svg#montserrat_extrabold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'montserrat_hairline';
+    src: url('assets/fonts/montserrat/montserrat-hairline-webfont.eot');
+    src: url('assets/fonts/montserrat/montserrat-hairline-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/montserrat/montserrat-hairline-webfont.woff') format('woff'),
+         url('assets/fonts/montserrat/montserrat-hairline-webfont.ttf') format('truetype'),
+         url('assets/fonts/montserrat/montserrat-hairline-webfont.svg#montserrat_hairline') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'montserrat_light';
+    src: url('assets/fonts/montserrat/montserrat-light-webfont.eot');
+    src: url('assets/fonts/montserrat/montserrat-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/montserrat/montserrat-light-webfont.woff') format('woff'),
+         url('assets/fonts/montserrat/montserrat-light-webfont.ttf') format('truetype'),
+         url('assets/fonts/montserrat/montserrat-light-webfont.svg#montserrat_light') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'montserrat_regular';
+    src: url('assets/fonts/montserrat/montserrat-regular-webfont.eot');
+    src: url('assets/fonts/montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/montserrat/montserrat-regular-webfont.woff') format('woff'),
+         url('assets/fonts/montserrat/montserrat-regular-webfont.ttf') format('truetype'),
+         url('assets/fonts/montserrat/montserrat-regular-webfont.svg#montserrat_regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'montserrat_semibold';
+    src: url('assets/fonts/montserrat/montserrat-semibold-webfont.eot');
+    src: url('assets/fonts/montserrat/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/montserrat/montserrat-semibold-webfont.woff') format('woff'),
+         url('assets/fonts/montserrat/montserrat-semibold-webfont.ttf') format('truetype'),
+         url('assets/fonts/montserrat/montserrat-semibold-webfont.svg#montserrat_semibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
+
+@font-face {
+    font-family: 'montserrat_ultralight';
+    src: url('assets/fonts/montserrat/montserrat-ultralight-webfont.eot');
+    src: url('assets/fonts/montserrat/montserrat-ultralight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('assets/fonts/montserrat/montserrat-ultralight-webfont.woff') format('woff'),
+         url('assets/fonts/montserrat/montserrat-ultralight-webfont.ttf') format('truetype'),
+         url('assets/fonts/montserrat/montserrat-ultralight-webfont.svg#montserrat_ultralight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+	}
